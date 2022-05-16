@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw; 
+}
+
+.modal-delete-position {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 200px);
+}
+
+.modal-add-position {
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+}
